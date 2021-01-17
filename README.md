@@ -1,8 +1,6 @@
 <!-- Zphisher -->
 
-<p align="center">
-  <img src=".imgs/logo.png">
-</p>
+<h1 align="center">Kingpisher - A fork of zphisher but with more features</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.1-green?style=for-the-badge">
