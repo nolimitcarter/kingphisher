@@ -23,7 +23,8 @@
 
 ### Features
 
-- Latest and updated login pages.
+- Latest and updated login pages
+- Account recovery pages
 - Mask URL support 
 - Beginners friendly
 - Docker support (checkout `docker-legacy` branch)
