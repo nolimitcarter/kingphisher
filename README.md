@@ -33,7 +33,7 @@
 
 ### ADDED: 
 
-- Recover page logins
+- Recovery login pages
 - More options for Gmail and Twitter
 
 ### Installation
